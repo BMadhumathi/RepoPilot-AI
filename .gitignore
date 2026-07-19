@@ -1,7 +1,19 @@
-venv/
-__pycache__/
+# Environment
 .env
+venv/
+# Chroma Vector DB
 chromadb/
-*.pyc
-node_modules/
-dist/
+# Generated data
+repositories/
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
